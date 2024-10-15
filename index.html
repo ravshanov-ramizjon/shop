@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товары</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Добавьте новые товары к существующим, напишите фильтрацию по цене</h1>
+            <button class="add-product-btn">Добавить новый товар</button>
+        </header>
+
+        <div class="filters">
+            <div class="filterss">
+                <h3>Товары от:</h3>
+                <h3>Товары до:</h3>
+            </div>
+            <div class="filterss">
+                <input type="text" placeholder="100$" class="price-filter" >
+                <input type="text" placeholder="500$" class="price-filter" >
+                <button class="filter-btn">Показать</button>
+            </div>
+        </div>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <p class="product-name">Йогурт</p>
+                <p class="product-price">$25</p>
+            </div>
+            <div class="product-card">
+                <p class="product-name">Joe Banks</p>
+                <p class="product-price">1702$</p>
+            </div>
+            <div class="product-card">
+                <p class="product-name">Louis Marshall</p>
+                <p class="product-price">1425$</p>
+            </div>
+            <div class="product-card">
+                <p class="product-name">Ronald Cooper</p>
+                <p class="product-price">1972$</p>
+            </div>
+            <div class="product-card">
+                <p class="product-name">Ethan Brewer</p>
+                <p class="product-price">815$</p>
+            </div>
+            <div class="product-card">
+                <p class="product-name">Steve Reid</p>
+                <p class="product-price">1302$</p>
+            </div>
+            <div class="product-card">
+                <p class="product-name">Alex Lawson</p>
+                <p class="product-price">1015$</p>
+            </div>
+            <div class="product-card">
+                <p class="product-name">Roy Garrett</p>
+                <p class="product-price">1678$</p>
+            </div>
+            <div class="product-card">
+                <p class="product-name">George Garrett</p>
+                <p class="product-price">1145$</p>
+            </div>
+            <div class="product-card">
+                <p class="product-name">Aaron Henderson</p>
+                <p class="product-price">874$</p>
+            </div>
+            <div class="product-card">
+                <p class="product-name">Nicolas Rivera</p>
+                <p class="product-price">1878$</p>
+            </div>
+            <div class="product-card">
+                <p class="product-name">Jerry Diaz</p>
+                <p class="product-price">750$</p>
+            </div>
+            <div class="product-card">
+                <p class="product-name">Ronald Garrett</p>
+                <p class="product-price">1509$</p>
+            </div>
+            <div class="product-card">
+                <p class="product-name">Charles Fuller</p>
+                <p class="product-price">304$</p>
+            </div>
+            <div class="product-card">
+                <p class="product-name">Chris Wallace</p>
+                <p class="product-price">551$</p>
+            </div>
+            <div class="product-card">
+                <p class="product-name">Will Bradford</p>
+                <p class="product-price">844$</p>
+            </div>
+            <div class="product-card">
+                <p class="product-name">Louis Ortiz</p>
+                <p class="product-price">1581$</p>
+            </div>
+        </div>
+        <dialog class="add-product-form">
+            <div class="box">
+                <div class="item">
+                    <p>Название товара</p>
+                    <input type="text" placeholder="Курица" class="form-input">
+                    <p>Цена товара</p>
+                    <input type="text" placeholder="100$" class="form-input">
+                    <button class="submit-btn">Добавить</button>
+                    <button class="back-btn">Назад</button>
+                </div>
+            </div>
+        </dialog>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
